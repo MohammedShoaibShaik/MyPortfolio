@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae15763e09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>STUDENT</p>
+                <h1>Hi, I'm <span>Mohammed</span><br> Shoaib From India</h1>
+            </div>
+        </div>
+    </div>
+   <!---------------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Shaik Mohammed Shoaib, I am from nandikotkur.
+                        Currently I am pursuing my fourth year B.tech in 
+                        Rajeev Gandhi Memorial College of engineering 
+                        and technology(RGMCET),Nandyal. My strength is 
+                        my dedicaton and my adaptability. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech from RGMCET,Nandyal.</li>
+                            <li><span>2018-2020</span><br>Intermediate from Sri Chaitanya junior College,Kurnool.</li>
+                            <li><span>2018</span><br>schooling from jeevan jyothi english medium school,Nandikotkur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Portfolio</span><br></li>
+                            <li><span>ecommerce</span><br></li>
+                            <li><span>App Clone</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------skills------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>I possess a strong foundation in Java,
+                        complemented by a proficient understanding
+                        of Data Structures and Algorithms,allowing 
+                        me to tackle complex programming with confidence.
+                         </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>Having developed project using 
+                        frontend technologies, I have cultivated
+                        an exceptional proficiency in HTML,enabling
+                        me to create engaging and dynamic web interfaces
+                        with precision and expertise.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>While I posses a strong command 
+                       of CSS,my expertise extends further
+                       as I am adept at structuring 
+                       frameworks that enhance visual
+                       appeal and ensure an impactful 
+                       and visually appealing presentation.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>My current understanding of this 
+                       web technology might be limited,
+                       but I am commited to fortifying
+                       and expanding my knowledge in 
+                       the future,ensuring continuous 
+                       growth and improvement in this 
+                       area,which I am supposed to do.
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>While my current knowledge of SQL
+                        is limited, I am dedicated to 
+                        enhancing my proficiency in this
+                        area, ensuring that I can develop 
+                        a stronger command over SQL for 
+                        more effective database 
+                        management in the future.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------projects--------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/background1.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/ecommerce.png">
+                    <div class="layer">
+                        <h3>E-Commerce</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/clone.png">
+                    <div class="layer">
+                        <h3>Amazon Website Clone</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------------------contact------------------>
+    <div id="contact"> 
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>smdshoaib5555@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9347955591</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/MohammedShoaibShaik"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=%2B919347955591&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/810909045c1096dc45abe46259efa0dc" method="POST">
+                        <input type="text" name="Name" required placeholder="Your Name">
+                        <input type="text" name="Email" required placeholder="Your Email">
+                        <textarea name="Message" rows="6" required placeholder="Your Message"></textarea>
+                        <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com">
+                        <input type="hidden" name="_template" value="table">
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&COPY;Shoaib.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+   
+</body>
+</html>
